@@ -1,0 +1,22 @@
+**Overview**
+This project aims to analyze aviation accident data from the National Transportation Safety Board (NTSB) to identify the safest aircraft and provide actionable insights that will guide the company’s acquisition strategy.
+The analysis will focus on aviation accidents and incidents from 1962 to 2023, covering civil aviation in the United States. The investigation type taken into consideration is accidents. Key areas of investigation will include accident rates by aircraft type, common causes of accidents, and regional risk factors. The goal is to translate these findings into three concrete business recommendations that will help the head of the new aviation division make informed decisions on which aircraft to purchase.
+
+# Business Problem
+Your company is expanding in to new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises, but do not know anything about the potential risks of aircraft. You are charged with determining which aircraft are the lowest risk for the company to start this new business endeavor. You must then translate your findings into actionable insights that the head of the new aviation division can use to help decide which aircraft to purchase.
+
+#### Stakeholders
+The main stakeholder of this project is the Head of the Aviation Division.
+# Data
+Two datasets were obtained for this project.
+* A .csv file from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
+* A .csv file with the United States names and their abbreviations
+
+#### Data Sources
+The data was obtained from Kaggle (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+
+# Key Business Questions
+* Which aircraft makes are associated with the fewest total injuries in recorded accidents?
+* What are the most common causes of aviation accidents?
+* Which regions  are associated with higher risks?
+
