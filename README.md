@@ -22,7 +22,14 @@ Key Business Questions
 * Which regions  are associated with higher risks?
 
 Visualizations
+1. Aircraft Makes with fewer injuries
+(https://public.tableau.com/app/profile/franciscar.ndanu/viz/Phase1Project_17258905174080/TotalInjuriesbyMake?publish=yes)
 
+2. Most Common Causes of accidents
+https://public.tableau.com/app/profile/franciscar.ndanu/viz/Phase1Project_17258905174080/WeatherConditionPurposeofflightAmateurBuiltagainstTotalInjuries?publish=yes
+
+3. Regions associated with higher risks
+https://public.tableau.com/app/profile/franciscar.ndanu/viz/Phase1Project_17258905174080/TotalInjuriesbyRegion?publish=yes
 
 Key Findings
 1. Based on the analysis, Air, Bellanca, Robinson, Grumman and  Mooney, aircraft makes show consistently lower injury rates compared to others

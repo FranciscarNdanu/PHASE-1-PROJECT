@@ -1,0 +1,1733 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Phase1Project_17258905174080' path='/workbooks' revision='1.9' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Cleaned_Aviation_Data)' inline='true' name='federated.1qqq33h1quhul513in8u71ln8v1v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cleaned_Aviation_Data' name='excel-direct.1x0jue215ixbbb1aejtt21u35s9s'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='F:/MORINGA/Classes/PHASE 1 PROJECT/Cleaned_Aviation_Data.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1x0jue215ixbbb1aejtt21u35s9s' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Event.Id' ordinal='0' />
+            <column datatype='string' name='Investigation.Type' ordinal='1' />
+            <column datatype='string' name='Accident.Number' ordinal='2' />
+            <column datatype='string' name='Location' ordinal='3' />
+            <column datatype='string' name='Country' ordinal='4' />
+            <column datatype='string' name='Injury.Severity' ordinal='5' />
+            <column datatype='string' name='Aircraft.damage' ordinal='6' />
+            <column datatype='string' name='Aircraft.Category' ordinal='7' />
+            <column datatype='string' name='Make' ordinal='8' />
+            <column datatype='string' name='Model' ordinal='9' />
+            <column datatype='string' name='Amateur.Built' ordinal='10' />
+            <column datatype='integer' name='Number.of.Engines' ordinal='11' />
+            <column datatype='string' name='Engine.Type' ordinal='12' />
+            <column datatype='string' name='Purpose.of.flight' ordinal='13' />
+            <column datatype='integer' name='Total.Uninjured' ordinal='14' />
+            <column datatype='string' name='Weather.Condition' ordinal='15' />
+            <column datatype='integer' name='Year' ordinal='16' />
+            <column datatype='string' name='City' ordinal='17' />
+            <column datatype='string' name='State' ordinal='18' />
+            <column datatype='integer' name='Total.Injuries' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1x0jue215ixbbb1aejtt21u35s9s' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Event.Id' ordinal='0' />
+            <column datatype='string' name='Investigation.Type' ordinal='1' />
+            <column datatype='string' name='Accident.Number' ordinal='2' />
+            <column datatype='string' name='Location' ordinal='3' />
+            <column datatype='string' name='Country' ordinal='4' />
+            <column datatype='string' name='Injury.Severity' ordinal='5' />
+            <column datatype='string' name='Aircraft.damage' ordinal='6' />
+            <column datatype='string' name='Aircraft.Category' ordinal='7' />
+            <column datatype='string' name='Make' ordinal='8' />
+            <column datatype='string' name='Model' ordinal='9' />
+            <column datatype='string' name='Amateur.Built' ordinal='10' />
+            <column datatype='integer' name='Number.of.Engines' ordinal='11' />
+            <column datatype='string' name='Engine.Type' ordinal='12' />
+            <column datatype='string' name='Purpose.of.flight' ordinal='13' />
+            <column datatype='integer' name='Total.Uninjured' ordinal='14' />
+            <column datatype='string' name='Weather.Condition' ordinal='15' />
+            <column datatype='integer' name='Year' ordinal='16' />
+            <column datatype='string' name='City' ordinal='17' />
+            <column datatype='string' name='State' ordinal='18' />
+            <column datatype='integer' name='Total.Injuries' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T10001:no:A1:T10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Event.Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigation.Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Investigation.Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Investigation.Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accident.Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Accident.Number]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Accident.Number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Injury.Severity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Injury.Severity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Injury.Severity</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aircraft.damage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Aircraft.damage]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Aircraft.damage</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aircraft.Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Aircraft.Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Aircraft.Category</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amateur.Built</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Amateur.Built]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Amateur.Built</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number.of.Engines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number.of.Engines]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Number.of.Engines</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engine.Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Engine.Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Engine.Type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purpose.of.flight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Purpose.of.flight]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Purpose.of.flight</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Uninjured</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Uninjured]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Uninjured</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather.Condition</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Weather.Condition]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Weather.Condition</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Injuries</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_7F72DB5871E941418CAA64B3434E0041]' role='measure' type='quantitative' />
+      <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='Country, State, City'>
+          <field>[Country]</field>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_154jkke01pur6n10zvj8b0p1v1r7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/08/2024 09:11:08 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Event.Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Event.Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51212</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Investigation.Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Investigation.Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Investigation.Type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Accident.Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Accident.Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Accident.Number</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>53916</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8921</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Injury.Severity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Injury.Severity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Injury.Severity</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aircraft.damage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Aircraft.damage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aircraft.damage</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aircraft.Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Aircraft.Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aircraft.Category</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Make</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Make]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Make</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Model</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Model]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Model</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1805</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Amateur.Built</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Amateur.Built]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Amateur.Built</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number.of.Engines</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number.of.Engines]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number.of.Engines</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Engine.Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Engine.Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Engine.Type</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Purpose.of.flight</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Purpose.of.flight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Purpose.of.flight</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Uninjured</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Uninjured]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Uninjured</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Weather.Condition</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Weather.Condition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Weather.Condition</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7126</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Injuries</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Make:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;AIR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BOEING&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;BELLANCA&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;PIPER&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;GRUMMAN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ROBINSON&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BELL&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;CESSNA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BEECH&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;MOONEY&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_7F72DB5871E941418CAA64B3434E0041'>
+            <properties context=''>
+              <relation connection='excel-direct.1x0jue215ixbbb1aejtt21u35s9s' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Event.Id' ordinal='0' />
+                  <column datatype='string' name='Investigation.Type' ordinal='1' />
+                  <column datatype='string' name='Accident.Number' ordinal='2' />
+                  <column datatype='string' name='Location' ordinal='3' />
+                  <column datatype='string' name='Country' ordinal='4' />
+                  <column datatype='string' name='Injury.Severity' ordinal='5' />
+                  <column datatype='string' name='Aircraft.damage' ordinal='6' />
+                  <column datatype='string' name='Aircraft.Category' ordinal='7' />
+                  <column datatype='string' name='Make' ordinal='8' />
+                  <column datatype='string' name='Model' ordinal='9' />
+                  <column datatype='string' name='Amateur.Built' ordinal='10' />
+                  <column datatype='integer' name='Number.of.Engines' ordinal='11' />
+                  <column datatype='string' name='Engine.Type' ordinal='12' />
+                  <column datatype='string' name='Purpose.of.flight' ordinal='13' />
+                  <column datatype='integer' name='Total.Uninjured' ordinal='14' />
+                  <column datatype='string' name='Weather.Condition' ordinal='15' />
+                  <column datatype='integer' name='Year' ordinal='16' />
+                  <column datatype='string' name='City' ordinal='17' />
+                  <column datatype='string' name='State' ordinal='18' />
+                  <column datatype='integer' name='Total.Injuries' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Amateur Built/Total Injuries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Amateur.Built]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Amateur.Built]' derivation='None' name='[none:Amateur.Built:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[sum:Total.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</rows>
+        <cols>([federated.1qqq33h1quhul513in8u71ln8v1v].[none:Amateur.Built:nk] / [federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk])</cols>
+      </table>
+      <simple-id uuid='{4E764532-1564-4098-BB23-91FEB3B556BB}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E8D99701-73CE-43E7-87A9-206FFDD91D09}' />
+    </worksheet>
+    <worksheet name='Total Injuries by Make'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[pcto:sum:Total.Injuries:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[sum:Total.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' />
+              <lod column='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:3]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</rows>
+        <cols>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</cols>
+      </table>
+      <simple-id uuid='{176A7F43-5CA1-4F7C-8F39-20ED909B7CAC}' />
+    </worksheet>
+    <worksheet name='Total Injuries by Make and Category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Aircraft.Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Aircraft.Category]' derivation='None' name='[none:Aircraft.Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[sum:Total.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' value='42' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</rows>
+        <cols>([federated.1qqq33h1quhul513in8u71ln8v1v].[none:Aircraft.Category:nk] / [federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk])</cols>
+      </table>
+      <simple-id uuid='{69986ADF-AC46-49E1-82EA-B0ADD17ECB1E}' />
+    </worksheet>
+    <worksheet name='Total Injuries by Purpose of Flight'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Purpose.of.flight]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Purpose.of.flight]' derivation='None' name='[none:Purpose.of.flight:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[sum:Total.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</rows>
+        <cols>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]</cols>
+      </table>
+      <simple-id uuid='{71DB79F4-9552-4D25-B750-F40E4F4BA3C3}' />
+    </worksheet>
+    <worksheet name='Total Injuries by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[pcto:sum:Total.Injuries:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Field' type='PctTotal'>
+                <order field='[federated.1qqq33h1quhul513in8u71ln8v1v].[Country]' />
+                <order field='[federated.1qqq33h1quhul513in8u71ln8v1v].[State]' />
+              </table-calc>
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1qqq33h1quhul513in8u71ln8v1v].[Longitude (generated)]' field-type='quantitative' max='31738665.308730289' min='25308576.483360939' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1qqq33h1quhul513in8u71ln8v1v].[Latitude (generated)]' field-type='quantitative' max='6413752.0565869426' min='3025780.0724965567' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:State:nk]' />
+              <text column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:State:nk]' />
+              <lod column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Country:nk]' />
+              <lod column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:State:nk]' />
+              <size column='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qqq33h1quhul513in8u71ln8v1v].[Latitude (generated)]</rows>
+        <cols>[federated.1qqq33h1quhul513in8u71ln8v1v].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6491C1FD-1741-41FC-9037-0191E230B91F}' />
+    </worksheet>
+    <worksheet name='Weather Condition/Make/Total Injuries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Weather.Condition]' role='dimension' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Weather.Condition]' derivation='None' name='[none:Weather.Condition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[sum:Total.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Weather.Condition:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</rows>
+        <cols>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</cols>
+      </table>
+      <simple-id uuid='{B60D98D3-CCD2-4548-AC5E-A1A7C9BE7D18}' />
+    </worksheet>
+    <worksheet name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Cleaned_Aviation_Data)' name='federated.1qqq33h1quhul513in8u71ln8v1v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qqq33h1quhul513in8u71ln8v1v'>
+            <column datatype='string' name='[Amateur.Built]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Purpose.of.flight]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Injuries]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Weather.Condition]' role='dimension' type='nominal' />
+            <column-instance column='[Amateur.Built]' derivation='None' name='[none:Amateur.Built:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Purpose.of.flight]' derivation='None' name='[none:Purpose.of.flight:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Weather.Condition]' derivation='None' name='[none:Weather.Condition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Injuries]' derivation='Sum' name='[pcto:sum:Total.Injuries:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:2]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:2]' />
+              <text column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Amateur.Built:nk]' />
+              <text column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Weather.Condition:nk]' />
+              <text column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' />
+              <color column='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3E1E1C90-3E3B-4610-AC22-3989A1081CBD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Aviation Data Analysis'>
+      <style />
+      <size maxheight='860' maxwidth='1150' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97428' id='7' param='horz' type-v2='layout-flow' w='49298' x='696' y='1286'>
+            <zone h='97428' id='5' type-v2='layout-basic' w='46515' x='696' y='1286'>
+              <zone h='48714' id='3' name='Total Injuries by Make' w='46515' x='696' y='1286'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48714' id='46' name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries' w='46515' x='696' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='32' h='97428' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='2783' x='47211' y='1286'>
+              <zone fixed-size='236' h='39228' id='8' is-fixed='true' name='Total Injuries by Make' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' type-v2='color' w='2783' x='47211' y='1286'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19400' id='11' name='Total Injuries by Region' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk]' type-v2='size' w='2783' x='47211' y='40514'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19400' id='12' name='Total Injuries by Region' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:State:nk]' type-v2='color' w='2783' x='47211' y='59914'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19400' id='47' name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' type-v2='color' w='2783' x='47211' y='79314'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='97428' id='10' name='Total Injuries by Region' w='49310' x='49994' y='1286'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='1' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='79' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97428' id='78' param='vert' type-v2='layout-flow' w='98608' x='696' y='1286'>
+                <zone fixed-size='280' h='48714' id='3' is-fixed='true' name='Total Injuries by Make' w='46515' x='696' y='1286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='236' h='39228' id='8' name='Total Injuries by Make' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' type-v2='color' w='2783' x='47211' y='1286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='97428' id='10' is-fixed='true' name='Total Injuries by Region' w='49310' x='49994' y='1286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19400' id='11' name='Total Injuries by Region' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk]' type-v2='size' w='2783' x='47211' y='40514'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19400' id='12' name='Total Injuries by Region' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:State:nk]' type-v2='color' w='2783' x='47211' y='59914'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48714' id='46' is-fixed='true' name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries' w='46515' x='696' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19400' id='47' name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries' pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' type-v2='color' w='2783' x='47211' y='79314'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2B651727-3DEF-49F6-B4F1-689EBF0DBCFC}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style>
+        <style-rule element='story-description'>
+          <format attr='font-style' id='story-description_7' value='normal' />
+          <format attr='font-weight' id='story-description_7' value='normal' />
+          <format attr='text-decoration' id='story-description_7' value='none' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='278' />
+        </style-rule>
+      </style>
+      <size maxheight='564' maxwidth='1116' minheight='564' minwidth='1116' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97164' id='1' param='vert' removable='false' type-v2='layout-flow' w='98566' x='717' y='1418'>
+            <zone h='7447' id='3' type-v2='title' w='98566' x='717' y='1418' />
+            <zone h='17908' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98566' x='717' y='8865' />
+            <zone h='71809' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98566' x='717' y='26773'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Total Injuries by Make' captured-sheet='Total Injuries by Make' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='Total Injuries by Make'>
+                        <selection-collection>
+                          <tuple-selection>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  </x-fields>
+                                  <y-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  </y-fields>
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:3]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>&quot;AIR&quot;</value>
+                                <value>332</value>
+                                <value>0.0084555827220863904</value>
+                              </tuple>
+                            </tuple-reference>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  </x-fields>
+                                  <y-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  </y-fields>
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:3]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>&quot;BELLANCA&quot;</value>
+                                <value>686</value>
+                                <value>0.017471475142624288</value>
+                              </tuple>
+                            </tuple-reference>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  </x-fields>
+                                  <y-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  </y-fields>
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:3]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>&quot;ROBINSON&quot;</value>
+                                <value>749</value>
+                                <value>0.019075998370008149</value>
+                              </tuple>
+                            </tuple-reference>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  </x-fields>
+                                  <y-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  </y-fields>
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:3]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>&quot;GRUMMAN&quot;</value>
+                                <value>766</value>
+                                <value>0.019508964955175224</value>
+                              </tuple>
+                            </tuple-reference>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  </x-fields>
+                                  <y-fields>
+                                    <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  </y-fields>
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[sum:Total.Injuries:qk]</field>
+                                  <field>[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk:3]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>&quot;MOONEY&quot;</value>
+                                <value>1089</value>
+                                <value>0.027735330073349634</value>
+                              </tuple>
+                            </tuple-reference>
+                          </tuple-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption=' Common Causes of Aviation Accidents' captured-sheet='Weather Condition/Purpose of flight/Amateur Built against Total Injuries' id='3' />
+                  <story-point caption='Injuries by Region' captured-sheet='Total Injuries by Region' id='4'>
+                    <capturedDeltas>
+                      <worksheet name='Total Injuries by Region'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.1qqq33h1quhul513in8u71ln8v1v].[Latitude (generated)]' field-type='quantitative' max='6588117.7547641918' min='2916493.1494305301' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.1qqq33h1quhul513in8u71ln8v1v].[Longitude (generated)]' field-type='quantitative' max='32855019.591027454' min='24120716.922895387' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='28369' hidden='true' id='6' story-point-id='1' type-v2='text' w='36022' x='44355' y='45745'>
+          <formatted-text>
+            <run>Mooney, Grumman, Robinson, Bellanca and Air had the lowest number of injuries.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='26418' hidden='true' id='7' story-point-id='3' type-v2='text' w='32706' x='627' y='24823'>
+          <formatted-text>
+            <run fontalignment='0' fontsize='10'>Personal purpose flights recorded higher number of injuries</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontsize='10'>Higher injury numbers under VMC conditions</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontsize='10'>Amateur built aircrafts had lower injury numbers</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{5CB3E0ED-04A4-4B9B-90D2-AE001F9B5F86}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Total Injuries by Make'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{49AF21D4-E6C2-4BBC-B224-3F7ED05D664C}' />
+    </window>
+    <window class='worksheet' name='Total Injuries by Make and Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{89E555BD-36D4-47D5-9DE9-37B674EFECBB}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{641F7EBC-F8F0-4ABB-A7FB-37F19A80D2E1}' />
+    </window>
+    <window class='worksheet' name='Total Injuries by Purpose of Flight'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EE02E645-4640-4F97-885E-7B150D9DAE83}' />
+    </window>
+    <window class='worksheet' name='Weather Condition/Make/Total Injuries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Weather.Condition:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{32D7EC44-859C-4175-A2D5-951486B2B5D6}' />
+    </window>
+    <window class='worksheet' name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Purpose.of.flight:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{EF6CBB0E-5E9E-4FF3-8C96-2D89EFC0243D}' />
+    </window>
+    <window class='worksheet' name='Amateur Built/Total Injuries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{31D7C26E-C758-4000-ABE3-CB1245C24514}' />
+    </window>
+    <window class='worksheet' name='Total Injuries by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[pcto:sum:Total.Injuries:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1qqq33h1quhul513in8u71ln8v1v].[none:State:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CFFE518B-93C7-45DA-9937-BDDDB4B4B44F}' />
+    </window>
+    <window class='dashboard' name='Aviation Data Analysis'>
+      <viewpoints>
+        <viewpoint name='Total Injuries by Make' />
+        <viewpoint name='Total Injuries by Region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Weather Condition/Purpose of flight/Amateur Built against Total Injuries'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BDFC802E-3091-4732-970B-B7F7D1A19614}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{910DC992-E632-4C96-827A-6F4E5A7AA6A5}' />
+    </window>
+  </windows>
+</workbook>
