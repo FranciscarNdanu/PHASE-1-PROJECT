@@ -20,7 +20,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='Phase1Project_17258905174080' path='/workbooks' revision='1.9' />
+  <repository-location id='Phase1Project_17258905174080' path='/workbooks' revision='2.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -435,7 +435,7 @@
         </drill-path>
       </drill-paths>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_154jkke01pur6n10zvj8b0p1v1r7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/08/2024 09:11:08 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_154jkke01pur6n10zvj8b0p1v1r7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
@@ -452,7 +452,6 @@
               <approx-count>51212</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Investigation.Type</remote-name>
@@ -467,7 +466,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Accident.Number</remote-name>
@@ -482,7 +480,6 @@
               <approx-count>53916</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location</remote-name>
@@ -497,7 +494,6 @@
               <approx-count>8921</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Country</remote-name>
@@ -512,7 +508,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Injury.Severity</remote-name>
@@ -527,7 +522,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Aircraft.damage</remote-name>
@@ -542,7 +536,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Aircraft.Category</remote-name>
@@ -557,7 +550,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Make</remote-name>
@@ -572,7 +564,6 @@
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Model</remote-name>
@@ -587,7 +578,6 @@
               <approx-count>1805</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Amateur.Built</remote-name>
@@ -602,7 +592,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number.of.Engines</remote-name>
@@ -616,7 +605,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Engine.Type</remote-name>
@@ -631,7 +619,6 @@
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Purpose.of.flight</remote-name>
@@ -646,7 +633,6 @@
               <approx-count>17</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total.Uninjured</remote-name>
@@ -660,7 +646,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>95</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Weather.Condition</remote-name>
@@ -675,7 +660,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Year</remote-name>
@@ -689,7 +673,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>41</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>City</remote-name>
@@ -704,7 +687,6 @@
               <approx-count>7126</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>State</remote-name>
@@ -719,7 +701,6 @@
               <approx-count>88</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total.Injuries</remote-name>
@@ -733,7 +714,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>39</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7F72DB5871E941418CAA64B3434E0041]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1224,8 +1204,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='79' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97428' id='78' param='vert' type-v2='layout-flow' w='98608' x='696' y='1286'>
+            <zone h='100000' id='85' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97428' id='84' param='vert' type-v2='layout-flow' w='98608' x='696' y='1286'>
                 <zone fixed-size='280' h='48714' id='3' is-fixed='true' name='Total Injuries by Make' w='46515' x='696' y='1286'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1302,7 +1282,7 @@
       </devicelayouts>
       <simple-id uuid='{2B651727-3DEF-49F6-B4F1-689EBF0DBCFC}' />
     </dashboard>
-    <dashboard name='Story 1' type='storyboard'>
+    <dashboard name='Aviation Data Analysis Story' type='storyboard'>
       <style>
         <style-rule element='story-description'>
           <format attr='font-style' id='story-description_7' value='normal' />
@@ -1311,6 +1291,9 @@
         </style-rule>
         <style-rule element='story-point-caption'>
           <format attr='width' value='278' />
+        </style-rule>
+        <style-rule element='story-title'>
+          <format attr='background-color' value='#ddebf0' />
         </style-rule>
       </style>
       <size maxheight='564' maxwidth='1116' minheight='564' minwidth='1116' sizing-mode='fixed' />
@@ -1711,7 +1694,7 @@
       </cards>
       <simple-id uuid='{CFFE518B-93C7-45DA-9937-BDDDB4B4B44F}' />
     </window>
-    <window class='dashboard' name='Aviation Data Analysis'>
+    <window class='dashboard' maximized='true' name='Aviation Data Analysis'>
       <viewpoints>
         <viewpoint name='Total Injuries by Make' />
         <viewpoint name='Total Injuries by Region'>
@@ -1724,7 +1707,7 @@
       <active id='-1' />
       <simple-id uuid='{BDFC802E-3091-4732-970B-B7F7D1A19614}' />
     </window>
-    <window class='dashboard' maximized='true' name='Story 1'>
+    <window class='dashboard' name='Aviation Data Analysis Story'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{910DC992-E632-4C96-827A-6F4E5A7AA6A5}' />
